@@ -27,6 +27,8 @@ class SearchViewController: UIViewController {
         tableView.register(cellNib, forCellReuseIdentifier:
             "SearchResultCell")
         
+        searchBar.becomeFirstResponder()
+        
         
     }
 
